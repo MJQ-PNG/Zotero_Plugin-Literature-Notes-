@@ -1,0 +1,22 @@
+# 构建产物：只保留最新的 .xpi，历史版本不进仓库
+build/*.xpi
+!build/zotero-literature-notes-0.5.1.xpi
+
+# 测试/临时产生的 txt
+build/*.txt
+
+# 生成脚本产物 / Python
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# 编辑器 / 系统
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 本地环境 / 密钥（绝不提交）
+.env
+*.key

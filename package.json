@@ -1,0 +1,11 @@
+{
+  "name": "zotero-literature-notes",
+  "version": "0.5.1",
+  "description": "Zotero 文献笔记提取插件：选中文献 → AI 四步提取 → 生成笔记 + txt",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.js",
+    "pack": "node scripts/build.js"
+  },
+  "devDependencies": {}
+}

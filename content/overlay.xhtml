@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!--
+  overlay.xhtml — 向 Zotero 主窗口注入 UI（菜单项）
+  通过 chrome.manifest 的 overlay 声明，加载时会合并进 zoteroPane.xhtml。
+-->
+<!DOCTYPE overlay [
+  <!ENTITY % zoteroDTD SYSTEM "chrome://zotero/locale/zotero.dtd">
+  %zoteroDTD;
+]>
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+         xmlns:html="http://www.w3.org/1999/xhtml">
+
+  <!-- Zotero 库条目右键菜单：追加「提取选中文献笔记」项 -->
+  <menupopup id="zotero-itemmenu">
+    <menuseparator id="litnotes-sep" />
+    <menuitem id="litnotes-extract-menu"
+              label="提取选中文献笔记…"
+              oncommand="Zotero.LitNotes.onExtractCommand(event)"/>
+    <!-- B 版：把选中文献信息导出为 txt 文件 -->
+    <menuitem id="litnotes-export-menu"
+              label="导出选中文献为 txt…"
+              oncommand="Zotero.LitNotes.onExportCommand(event)"/>
+  </menupopup>
+
+  <!-- 工具栏按钮（可选，方便不用右键触发） -->
+  <toolbarpalette id="zotero-toolbar">
+    <toolbarbutton id="litnotes-toolbar-btn"
+                   class="zotero-tb-button"
+                   label="提取笔记"
+                   tooltiptext="AI 四步提取选中文献笔记"
+                   oncommand="Zotero.LitNotes.onExtractCommand(event)"/>
+  </toolbarpalette>
+
+</overlay>
