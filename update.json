@@ -1,0 +1,12 @@
+{
+  "addons": {
+    "zotero-literature-notes@mjq.local": {
+      "updates": [
+        {
+          "version": "0.5.1",
+          "update_link": "https://github.com/MJQ-PNG/-Zotero-Literature-Notes-/releases/download/v0.5.1/zotero-literature-notes-0.5.1.xpi"
+        }
+      ]
+    }
+  }
+}

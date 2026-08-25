@@ -3,12 +3,12 @@
   "name": "Zotero Literature Notes",
   "version": "0.5.1",
   "description": "Literature note extraction for Zotero.",
-  "homepage_url": "https://example.com/zotero-literature-notes",
+  "homepage_url": "https://github.com/MJQ-PNG/-Zotero-Literature-Notes-",
   "author": "mjq",
   "applications": {
     "zotero": {
       "id": "zotero-literature-notes@mjq.local",
-      "update_url": "https://example.com/zotero-literature-notes/update.json",
+      "update_url": "https://raw.githubusercontent.com/MJQ-PNG/-Zotero-Literature-Notes-/main/update.json",
       "strict_min_version": "6.999",
       "strict_max_version": "10.*"
     }
