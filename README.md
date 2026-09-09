@@ -1,4 +1,4 @@
-/># Zotero插件 —— Zotero Literature Notes（文献笔记提取插件）📚
+># Zotero插件 —— Zotero Literature Notes（文献笔记提取插件）📚
 
 > **English README → [`README_en.md`](README_en.md)**
 
