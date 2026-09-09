@@ -13,13 +13,10 @@
 ## 🎬 效果一眼懂
 
 > 👉 **效果图占位**：这里放「研究核心」四步笔记截图，建议放图 1 和 1.gif（演示动图）
-![四步笔记示例](docs/screenshots/note-demo.png)
 <img width="1752" height="1650" alt="ca138007f58691cf13f70ada4e230631" src="https://github.com/user-attachments/assets/94eeb3f6-7100-4d83-8031-38eee0ca3a05" />
 <img width="1739" height="1543" alt="758252cd54647402ad5ea5e0a0bea99c" src="https://github.com/user-attachments/assets/2ccd0482-dbd7-4622-a06c-1fb91536af48" />
 
 > 👉 **效果图占位**：这里放「跨文献总结」对比表截图（全片最惊艳画面）
-![跨文献对比表示例](docs/screenshots/compare-table.png)
-
 <img width="1716" height="1473" alt="c420531805b7104551e3aed62362ec8c" src="https://github.com/user-attachments/assets/d55a26ec-2673-406e-be44-4bed54fd0986" />
 
 ---
